@@ -1,0 +1,42 @@
+/* skill.css */
+
+/* Skills container */
+.skills-section {
+  border-left: 4px solid #3ca76d; /* green left border */
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+/* Section title */
+.skills-section .section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #2b3e2b; /* dark green text */
+}
+
+/* Skills grid */
+.skills-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Skill lists */
+.skills-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.skills-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skills-list li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+  color: #555;
+}

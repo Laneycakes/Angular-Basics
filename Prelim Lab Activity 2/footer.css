@@ -1,0 +1,44 @@
+/* footer.css */
+
+/* Footer container / technical skills */
+.technical-skills {
+  border-top: 3px solid #3ca76d; /* green top border */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+
+/* Section title */
+.technical-skills .section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2b3e2b;
+}
+
+/* Tech categories grid */
+.tech-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Each category */
+.tech-category {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Category title */
+.tech-category .category-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Items list */
+.tech-category .tech-items {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
