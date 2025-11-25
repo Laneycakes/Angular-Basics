@@ -1,0 +1,62 @@
+/* header.css */
+
+/* HEADER */
+.cv-header {
+  display: flex;
+  justify-content: space-between; /* space between name and contact info */
+  align-items: center;
+  border-bottom: 2px solid #3ca76d; /* green border */
+  padding: 20px 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  border-radius: 8px;
+  background-color: #f8fdf8;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+/* Name styling */
+.name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+/* Contact info on the right */
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.contact-item a {
+  color: #45853D;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  color: #999;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cv-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .name {
+    margin-bottom: 10px;
+  }
+
+  .contact-info {
+    justify-content: flex-start;
+  }
+}
