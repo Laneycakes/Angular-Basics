@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-container {
+  background-color: #D6EDFF;
+  color: #000047;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  padding: 40px;
+  max-width: 500px;
+  margin: 50px 20px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #93c5fd;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.skills {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.skills li {
+  background-color: #B3D9FF; 
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+p {
+  font-size: 14px;
+}

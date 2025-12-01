@@ -1,0 +1,47 @@
+.example-container {
+  background-color: #D6EDFF;
+  color: #000047;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+button {
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #60a5fa;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #93c5fd;
+}
+
+.active-status {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.inactive-status {
+  color: #ef4444;
+  font-weight: bold;
+}

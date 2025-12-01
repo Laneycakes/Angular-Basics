@@ -1,0 +1,43 @@
+/* Global body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e0f0ff; /* soft page background */
+  margin: 0;
+  padding: 0;
+  color: #000047; /* default font color */
+}
+
+/* Navigation bar */
+nav {
+  background-color: #3d5a80; /* dark blue navbar */
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 0 15px;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-family: Georgia, serif;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #5a7fc1;
+  transform: scale(1.05);
+  color: white;
+}
+
+nav a.active {
+  background-color: #7fa2e0;
+  color: white;
+  font-weight: bold;
+}
